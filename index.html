@@ -1,0 +1,314 @@
+ <!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv = "X-UA-compatible" content = "IE=edge">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <title> Abhigyan's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<script src="https://kit.fontawesome.com/e8bf1f8134.js" crossorigin="anonymous"></script>
+
+<body>
+    <div id = "header">
+        <div class = "container">
+<nav>
+    <img src ="" class = "logo">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class = "header-text">
+<p class = "auto-type"></p>
+<!-- <h2><span class = "auto-type"></span></h2> -->
+<h1> Hi, I'am <span>Abhigyan</span> <br>From India</h1>
+
+</div>
+</div>
+</div>
+
+<!-- ................About............. -->
+<div id = "about">
+    <div class = "container">
+        <div class = "row">
+            <div class="about-col-1">
+            <img src = "IMG_20230809_190751.jpg" class = "aboutme"> </div>
+            <div class="about-col-2">
+            <h1 class = "subtitle">About Me</h1>
+            <p> Self-directed Hardworking Student currently studying for Btech in
+                Computer Science. Dedicated towards continuous improvement and building career
+                foundation. Motivated to apply education and experience in job role. Offers strong
+                administrative, time management and multitasking skills.
+                
+            </p>
+            <div class = "tab-titles">
+            <p Class = "tab-links active-link" onclick = "opentab('skills')"> Skills</p>
+            <p Class = "tab-links" onclick = "opentab('experience')"> Experience</p>
+            <p Class = "tab-links" onclick = "opentab('education')"> Education</p>
+
+            </div>
+            <div class = "tab-contents" active-tab id= "skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                <li><span>Web Development</span><br>Building WebPage</li>
+                <li><span>Graphic design </span><br>Creating visual content</li>
+
+            </ul>
+
+            </div>
+            <div class = "tab-contents" id = "experience">
+                <ul>
+                    <li><span>2023 - Current</span><br>Intern At Infobyte</li>
+                    <li><span>2023 - Current</span><br>Intern At Bharat Intern</li>
+                    <li><span>2023 - 2026 </span><br>Campus Ambasador At Teachnook</li>
+    
+                </ul>
+    
+                </div>
+                <div class = "tab-contents" id = "education">
+                    <ul>
+                        <li><span>Schooling</span><br>St. Mary's Convent School</li>
+                        <li><span>Graduation</span><br>Btech in Computer Science</li>
+                        <!-- <li><span>Out Of The Box</span><br>Sports</li> -->
+        
+                    </ul>
+        
+                    </div>
+        </div>
+    </div>
+</div>
+</div>
+  <!-- --------------services------------------ -->
+<div id="services">
+    <div id="cointainer">
+        <h1 class = "sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2><br>
+            <p>Web design is a Multi-disciplinary job, Skills in developing a Website</p>
+            <a href="#">Learn more</a> 
+        </div>
+       
+        <div>
+            <i class="fa-solid fa-microchip"></i>
+            <h2>UI/UX Design </h2><br>
+            <p>It is build to make web page more Attractive and Impressive</p>
+            <a href="#">Learn more</a> 
+        </div>
+
+        <div>
+            <i class="fa-solid fa-briefcase"></i>
+            <h2>App Development</h2><br>
+            <p>It is build to make App much Handy and Accessible
+            </p>
+            <a href="#">Learn more</a> 
+        </div>
+
+    </div>
+</div>
+</div>
+<!-- -------------------Portfolio------------ -->
+<div id = "portfolio">
+    <div class = "container">
+        <h1 class = "sub-title2">My Work</h1>
+        <div class = "work-list">
+            <div class = "work">
+                <img src ="work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3><br>
+                    <p>Social media is a collective term for websites and applications that focus on communication, community-based input, interaction, content-sharing and collaboration.</p>
+                    <a href = "#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+            <div class = "work">
+                <img src ="work-2.png">
+                <div class="layer">
+                    <h3>Service Based App</h3><br>
+                    <p>It can play music files stored locally on devices, as well as stream from the iTunes Store and Apple Music, it makes you refreshing acording to your mood.</p>
+                    <a href = "#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+            <div class = "work">
+                <img src ="work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3><br>
+                    <p>Shopping apps are designed to make it easy for customers to find and buy the products they need. They also allow you to purchase items faster.</p>
+                    <a href = "#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+        <a href = "#"class = "btn">Home</a>
+    </div>
+</div>
+<!-- ----------contact--------- -->
+<div id="contact">
+    <div class = "container">
+        <div class ="row">
+            <div class="contact-left">
+            <h1 class = "sub-title3">Let's Connect! </h1>
+            <p>aptabhigyan@gmail.com<i class="fa-solid fa-paper-plane"></i></p>
+            <p>8052466655<i class="fa-solid fa-phone"></i></p>
+            <div Class ="social-icons">
+                <a href ="https://www.instagram.com/abhiigyan_yadav/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+                <a href = "https://www.linkedin.com/in/abhigyan-yadav-4980a4265" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href = "https://github.com/Abhigyan09" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                <a href = "https://www.twitter.com/" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+           </div>
+        <div>
+         <a href = "Abhigyan_Resume.pdf" target="_blank" download class = "btn2">Download CV </a>   
+
+        </div>
+        </div>
+            
+            <div class="contact-right">
+            <form name = "submit-to-google-sheet">
+                <input type = "text" name = "Name" placeholder ="Your Name" required>
+                <input type = "email" name = "Email" placeholder= "Your Email" required>
+                <textarea name = "Message" rows = "6" name = "Message" placehoder = "Your Message" required> </textarea>
+                <button type = "submit" class ="btn3">Submit</button>
+            </form>
+            <span id="msg"></span>
+
+           </div>
+        </div>
+
+    </div>
+           
+    <div class = "copyright">
+        <p>Copyright <i class = "fa-solid fa-copyright"></i> 2023" Abhigyan Made With Love  <i class="fa-regular fa-heart"></i>  All Right Reserved</p>
+           </div>
+</div>
+
+  
+
+ 
+ 
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+  </script>
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0px";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-220px";
+    }
+
+</script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzGh3epaQP9N31bj9Ocnjcu3dM0Q4Hl1Y-7TwXhL6ba17BduxjwHr7jK6c34wtnB_0s/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!!"
+            serTimeout(function(){
+                 msg.innerHTML = ""
+            },5000) 
+            form.reset()
+        })
+         .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<script>
+    var typed = new Typed(".auto-type",{
+        strings: ["Web developer,","Graphic Design,","Event Management"],
+        typeSpeed:50,
+        backSpeed:60,
+        loop : true,
+    })
+</script>
+
+</body>
+
+</html>
+
+
+
+<!-- ----------Code For LInking Google Excel Sheet via Message Box------ -->
+                          <!-- To Be Written ON Excel Sheet -->
+<!-- var sheetName = 'Sheet1'
+var scriptProp = PropertiesService.getScriptProperties()
+
+function intialSetup () {
+  var activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet()
+  scriptProp.setProperty('key', activeSpreadsheet.getId())
+}
+
+function doPost (e) {
+  var lock = LockService.getScriptLock()
+  lock.tryLock(10000)
+
+  try {
+    var doc = SpreadsheetApp.openById(scriptProp.getProperty('key'))
+    var sheet = doc.getSheetByName(sheetName)
+
+    var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
+    var nextRow = sheet.getLastRow() + 1
+
+    var newRow = headers.map(function(header) {
+      return header === 'timestamp' ? new Date() : e.parameter[header]
+    })
+
+    sheet.getRange(nextRow, 1, 1, newRow.length).setValues([newRow])
+
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'success', 'row': nextRow }))
+      .setMimeType(ContentService.MimeType.JSON)
+  }
+
+  catch (e) {
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'error', 'error': e }))
+      .setMimeType(ContentService.MimeType.JSON)
+  }
+
+  finally {
+    lock.releaseLock()
+  }
+} -->
+
+  
